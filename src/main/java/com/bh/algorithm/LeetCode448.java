@@ -64,6 +64,7 @@ public class LeetCode448 {
                 i++;
                 continue;
             }
+
             // 这个位置上的数字不是理应存储的位置，找出这个数字理应出现在哪个位置下（索引）
             int idealIdx = nums[i] - 1;
             //在判断数组中的数字是不是理应出现的位置
